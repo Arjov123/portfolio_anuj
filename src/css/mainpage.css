@@ -1,0 +1,32 @@
+.main-page-text{
+    font-size: 18px;
+    align-content: left;
+}
+
+
+.main-page{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+text{
+    font-size: 34px;
+    align-items: left;
+}
+
+.main-page-image{
+    align-items: center;
+}
+
+.gradient-text1{
+    text-decoration: linear-gradient(to right, purple,red ,orange);
+}
+
+.gradient-button-2{
+    background-image: linear-gradient(to right, purple,red ,orange);
+}
+
+.gradient-text2{
+    background-image: linear-gradient(to right, orange,);
+}

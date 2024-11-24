@@ -1,0 +1,52 @@
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+    /* padding: 0; */
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+
+li:hover {
+    border: round;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+  
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: black;
+  }
+
+  .nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .nav-links a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+.gradient-button{
+    background-image: linear-gradient(to right, purple,red ,orange);
+}
+
+button{
+    border-radius: 15px;
+    border: none;
+    padding: 5px 20px;
+}
