@@ -41,12 +41,9 @@ nav{
     border-radius: 5px;
   }
 
-.gradient-button{
-    background-image: linear-gradient(to right, purple,red ,orange);
-}
-
-button{
+.nav-button{
     border-radius: 15px;
     border: none;
     padding: 5px 20px;
+    background-image: linear-gradient(to right, purple,red ,orange);
 }

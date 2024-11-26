@@ -1,25 +1,28 @@
 import React from 'react';
 import '../css/mainpage.css';
+import imagee from '../image/imagee.jpg';
 
 function MainPage() {
   return (
     <div className='main-page'>
         <div className='main-page-text'>
-            <text>Hello,</text><text className='gradient-text1'>I'm Jawad,</text>
-            <br/>
-            <text>ui/ux designer</text>
-            <br/>
-            <text>based in USA.</text>
+            <p><text>Hello,</text><text className='gradient-text1'>I'm Jawad,</text></p>
+            <p><text>ui/ux designer</text></p>
+          <p>
+            <text>based in USA.</text></p>
             <p>
                 I am a freelance ui/ux designer with experience of 3 yeaers. In this 3 years i</p>
                 <p> have worked so many big companies and startups.
             </p>
-            <button className='gradient-button-2'>GET IN TOUCH</button><button className='gradient-button'>VIEW ALL WORKS</button>
+            <div className='main-page-buttons'>
+              <button className='gradient-button'>GET IN TOUCH</button><button className='non-gradient-button'>VIEW ALL WORKS</button>
+            </div>
         </div>
         <div className='main-page-image'>
-            <img src='https://i.ibb.co/9q53x7X/image-1.png' alt='main-page-image' />
+            <img src={imagee} alt='main-page-image' />
         </div>
-    </div>
+        
+      </div>    
   );
 }
 

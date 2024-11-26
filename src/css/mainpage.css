@@ -7,7 +7,7 @@
 .main-page{
     display: flex;
     justify-content: space-evenly;
-
+    padding: 20px;
 }
 
 text{
@@ -17,16 +17,29 @@ text{
 
 .main-page-image{
     align-items: center;
+    padding: 100px 0 0 0;
 }
 
-.gradient-text1{
-    text-decoration: linear-gradient(to right, purple,red ,orange);
+.main-page-buttons{
+    padding: 15px;
+    display: flex;
 }
 
-.gradient-button-2{
+.gradient-button{
     background-image: linear-gradient(to right, purple,red ,orange);
+    border-radius: 15px;
+    border: none;
+    padding: 10px 20px;
 }
 
-.gradient-text2{
-    background-image: linear-gradient(to right, orange,);
+.non-gradient-button{
+    border-radius: 25px;
+    border: black;
+    padding: 10px 20px;
+}
+
+
+.gradient-background{
+    background-image: linear-gradient(to right, purple,red ,orange);
+    padding: 15px;
 }

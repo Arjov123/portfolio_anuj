@@ -16,7 +16,7 @@ function NavBar() {
       </ul>
     </div>
     <div className='message'>
-        <button className='gradient-button'>LET'S TALK</button>
+        <button className='nav-button'>LET'S TALK</button>
     </div>
     </nav>
   );
