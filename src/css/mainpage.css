@@ -1,45 +1,214 @@
-.main-page-text{
-    font-size: 18px;
-    align-content: left;
+.main-page-text {
+  font-size: 18px;
+  align-content: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.second-page-text {
+  font-size: 18px;
+  align-content: left;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.main-page {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  text-align: left;
+}
+
+text {
+  font-size: 34px;
+  align-items: left;
+  background-image: linear-gradient(
+      to right,
+      rgb(233, 4, 233),
+      rgb(235, 57, 57),
+      rgb(252, 187, 66)
+    );
+    color: transparent;
+    background-clip: text;
+}
+
+.main-page-image {
+  align-items: center;
+  padding: 100px 0 0 0;
+  border: solid;
+  border-image: linear-gradient(
+      to right,
+      rgb(233, 4, 233),
+      rgb(235, 57, 57),
+      rgb(252, 187, 66)
+    )
+    1;
 }
 
 
-.main-page{
+.main-page-buttons {
+  padding: 15px;
+  display: flex;
+  margin: 15px;
+}
+
+.gradient-button {
+  background-image: linear-gradient(
+    to right,
+    rgb(233, 4, 233),
+    rgb(235, 57, 57),
+    rgb(252, 187, 66)
+  );
+  border-radius: 15px;
+  border: none;
+  padding: 10px 20px;
+  height: 40px;
+  width: 160px;
+  cursor: pointer;
+}
+
+.gradient-button1 {
+  background-image: linear-gradient(
+    to right,
+    rgb(233, 4, 233),
+    rgb(235, 57, 57),
+    rgb(252, 187, 66)
+  );
+  border-radius: 100%;
+  border: none;
+  margin: 0 0 0 75px;
+  height: 50px;
+  width: 50px;
+  size: 25px;
+  cursor: pointer;
+}
+
+.non-gradient-button {
+  border-radius: 25px;
+  padding: 10px 20px;
+  margin: 0 0px 0 100px;
+  cursor: pointer;
+}
+
+.gradient-background {
+  background-image: linear-gradient(
+    to right,
+    rgb(233, 4, 233),
+    rgb(235, 57, 57),
+    rgb(252, 187, 66)
+  );
+  height: 100px;
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .main-page-image img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 450px) {
+  .main-page {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     padding: 20px;
-}
+    text-align: left;
+  }
 
-text{
-    font-size: 34px;
+  .main-page-image img {
+    width: 750px;
+    height: 750px;
+  }
+
+  .main-page-image {
+    width: 750px;
+    height: 750px;
+    padding: 0%;
+    margin: 70px;
+  }
+
+  .main-page-text {
+    font-size: 40px;
+    align-content: left;
+  }
+
+  text {
+    font-size: 65px;
     align-items: left;
-}
+    background-image: linear-gradient(
+      to right,
+      rgb(233, 4, 233),
+      rgb(235, 57, 57),
+      rgb(252, 187, 66)
+    );
+    color: transparent;
+    background-clip: text;
+  }
 
-.main-page-image{
-    align-items: center;
-    padding: 100px 0 0 0;
-}
+  .main-page-text p{
+    font-size: 70;
+  }
 
-.main-page-buttons{
-    padding: 15px;
-    display: flex;
-}
-
-.gradient-button{
-    background-image: linear-gradient(to right, purple,red ,orange);
-    border-radius: 15px;
+  .gradient-button {
+    background-image: linear-gradient(
+      to right,
+      rgb(233, 4, 233),
+      rgb(235, 57, 57),
+      rgb(252, 187, 66)
+    );
+    border-radius: 90px;
     border: none;
     padding: 10px 20px;
-}
+    cursor: pointer;
+    height: 150px;
+    width: 360px;
+    font-size: 35px;
+  }
 
-.non-gradient-button{
-    border-radius: 25px;
-    border: black;
+  .gradient-button1 {
+    background-image: linear-gradient(
+      to right,
+      rgb(233, 4, 233),
+      rgb(235, 57, 57),
+      rgb(252, 187, 66)
+    );
+    border-radius: 100%;
+    border: none;
+    margin: 0 0 0 325px;
+    height: 120px;
+    width: 120px;
+    size: 55px;
+    cursor: pointer;
+
+  }
+
+  .non-gradient-button {
+    border-radius: 90px;
     padding: 10px 20px;
-}
+    margin: 0 0 0 100px;
+    cursor: pointer;
+    font-size: 9px;
+    height: 150px;
+    width: 360px;
+    font-size: 33px;
+  }
 
+  .gradient-background {
+    height: 100px;
+    width: 100vh ;
+  }
 
-.gradient-background{
-    background-image: linear-gradient(to right, purple,red ,orange);
-    padding: 15px;
+  .second-page-text text {
+    font-size: 75px;
+  }
+
+  .second-page-text p {
+    font-size: 55px;
+  }
+
+  .second-page-text {
+    width: 100%;
+  }
 }
